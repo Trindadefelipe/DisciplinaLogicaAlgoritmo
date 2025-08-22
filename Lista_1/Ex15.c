@@ -9,10 +9,11 @@ int main()
     printf("Digite a velocidade média em km/h para percorrer o caminho: ");
     scanf("%f", &vel_media);
 
-    tempo = (distancia/vel_media)*60;
+    tempo = (distancia/vel_media);
 
-    printf("O tempo gasto para percorrer essa distancia nesta velocidade é de: %.2f Minutos", tempo);
+    printf("O tempo gasto para percorrer essa distancia nesta velocidade é de: %.2f Horas", tempo);
 
 
     return 0;
 }
+
